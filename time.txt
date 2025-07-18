@@ -1,0 +1,6 @@
+// file handling 
+LIB =-> stdlib.h
+1. make a file pointer 
+2. point the pointer to ( ptr = fopen("filename"."mode") mode = r = w
+3.  fscanf(flieptr,"%s",arr)
+4. fclose(file_pointer)
