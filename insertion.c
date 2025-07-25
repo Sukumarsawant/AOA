@@ -33,7 +33,7 @@ void selection(int a[],int n){
 	}
 }
 int main(){
-	int n =10;
+	int n =10000;
 	int a[n],b[n];
 	int temp;
 	int i , j ;
