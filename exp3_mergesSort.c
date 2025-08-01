@@ -25,7 +25,7 @@ void merge(int a[],int lb,int mid ,int ub){
     while(j<=ub) temp[k++] = a[j++];
     while(i<=mid) temp[k++]  = a[i++];
      k =0 ;
-    for(int i = lb ; i <ub;++i){
+    for(int i = lb ; i <=ub;++i){
         a[i] = temp[k++];
     }
 }
@@ -67,7 +67,7 @@ int main(){
 	end = clock();
 	t = (double)(end-start)/CLOCKS_PER_SEC;
 	;
-	printf("merge sort: %lf\n",(double)(end-start)/CLOCKS_PER_SEC);
+	printf("Time Taken for merge sort: %lf\n",(double)(end-start)/CLOCKS_PER_SEC);
 
 	fptr1 = fopen("output1.txt","w");
 	
