@@ -38,10 +38,11 @@ int main(){
         }
         
     }
-     for(int i =0 ; i<n;++i){
-        printf("%d ",dist[i]);
-    }
-    printf("\n");
+    //debug
+    //  for(int i =0 ; i<n;++i){
+    //     printf("%d ",dist[i]);
+    // }
+    // printf("\n");
         if(check && i ==n-1) {
             if(i==n-1){
             printf("Negative weighted cycle formed\n");return 0 ;
@@ -52,8 +53,9 @@ int main(){
         }
    
     }
+    printf("distance from source node 0");
  for(int i =0 ; i<n;++i){
-        printf("%d ",dist[i]);
+        printf("0 -> %d = %d \n",i,dist[i]);
     }
     printf("\n");
     
