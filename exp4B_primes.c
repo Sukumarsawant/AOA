@@ -73,7 +73,7 @@ while(!empty()){
         push(adj[cur][i],i,cur);
     }
 
-
+ 
 }
 printf("Total sum : %d",sum );
 
