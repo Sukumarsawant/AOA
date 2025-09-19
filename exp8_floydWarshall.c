@@ -37,11 +37,11 @@ int main(){
 
             }
         }
-         for(int i =0 ; i<n;++i){
-        for(int j =0 ; j<n;++j){
-            printf("%d\t",adj[i][j]);
-        }
-        printf("\n");
+        //  for(int i =0 ; i<n;++i){
+        // for(int j =0 ; j<n;++j){
+        //     printf("%d\t",adj[i][j]);
+        // }
+        // printf("\n");
     
     }
     printf("\n\n");
