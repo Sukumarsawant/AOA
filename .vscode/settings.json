@@ -1,0 +1,15 @@
+{
+  // Disable generic suggestion popups and triggers
+  "editor.quickSuggestions": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.parameterHints.enabled": false,
+  "editor.snippetSuggestions": "none",
+  "editor.tabCompletion": "off",
+  "editor.wordBasedSuggestions": "off",
+  // Avoid accepting suggestions by pressing Enter accidentally
+  "editor.acceptSuggestionOnEnter": "off",
+
+  // C/C++ extension: disable IntelliSense-based autocomplete
+  "C_Cpp.intelliSenseEngine": "Disabled"
+}
